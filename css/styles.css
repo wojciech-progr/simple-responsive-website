@@ -40,6 +40,12 @@ body {
     color: #09f;
 }
 
+.section-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 /* navigation */
 nav {
     height: 60px;
@@ -76,6 +82,52 @@ nav {
     height: 330px;
     background-size: cover;
     background-position: center;
+}
+
+/* main */
+
+main {
+    margin: 60px 0;
+}
+
+/* about us */
+
+.about-us-info {
+    margin-bottom: 10px;
+}
+
+/* products */
+
+.products {
+    margin: 60px auto;
+}
+
+.products h3 {
+    text-transform: uppercase;
+}
+
+.product {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.first-product {
+    background-image: url(../images/children.jpg);
+}
+
+.second-product {
+    background-image: url(../images/keyboard.jpg);
+}
+
+.third-product {
+    background-image: url(../images/woman-with-computer.jpg);
+}
+
+.fourth-product {
+    background-image: url(../images/computer.jpg);
 }
 
 @media (min-width: 768px) {
