@@ -131,6 +131,25 @@ main {
     background-image: url(../images/computer.jpg);
 }
 
+/* contact */
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    text-transform: uppercase;
+    margin: 20px 0 5px;
+}
+
+/* footer */
+
+footer {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #ddd;
+}
+
 @media (min-width: 768px) {
     .burger-icon {
         display: none;
