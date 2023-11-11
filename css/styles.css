@@ -153,9 +153,24 @@ main {
     text-align: center;
 }
 
+.contact p {
+    padding-bottom: 10px;
+}
+
 .contact h3 {
     text-transform: uppercase;
     margin: 20px 0 5px;
+}
+
+.contact a {
+    color: #09f;
+    font-size: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: black;
 }
 
 /* footer */
